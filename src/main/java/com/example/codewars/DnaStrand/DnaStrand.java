@@ -4,7 +4,7 @@ public class DnaStrand {
 
     public static String makeComplement(String dna) {
 
-        retrun
+        return
 
     }
 
