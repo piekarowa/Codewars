@@ -25,6 +25,15 @@ public class BinarySearch2 {
             if(numberToFind == middleNumber){
                 return middlePosition;
             }
+            if(numberToFind < middleNumber){
+                high = middlePosition - 1;
+            }else{
+                low = middlePosition + 1;
+            }
+
+        }
+
+        return -1;
 
     }
 
