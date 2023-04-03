@@ -22,7 +22,9 @@ public class BinarySearch2 {
             int middlePosition = (low + high)/2;
             int middleNumber = numbers[middlePosition];
 
-
+            if(numberToFind == middleNumber){
+                return middlePosition;
+            }
 
     }
 
