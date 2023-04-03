@@ -18,6 +18,10 @@ public class BinarySearch2 {
         int high = numbers.length - 1;
 
 
+        while(low <= high){
+            int middlePosition = (low + high)/2;
+            int middleNumber = numbers[middlePosition];
+
 
 
     }
