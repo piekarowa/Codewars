@@ -24,6 +24,7 @@ public class WeightSort {
 
             if (i < numbers.length - 1) {
                 summedNumbers += ", ";
+
             }
 
         }

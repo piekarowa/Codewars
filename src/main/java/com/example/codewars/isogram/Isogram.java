@@ -2,7 +2,6 @@ package com.example.codewars.isogram;
 
 
 
-
 public class Isogram {
     public static boolean isIsogram(String str) {
 
