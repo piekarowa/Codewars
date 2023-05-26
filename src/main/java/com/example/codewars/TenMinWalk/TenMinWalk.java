@@ -1,7 +1,7 @@
 package com.example.codewars.TenMinWalk;
 
 import java.util.Arrays;
-import java.util.Collection;
+
 import java.util.Collections;
 import java.util.List;
 
@@ -21,7 +21,7 @@ public class TenMinWalk {
         int countE = Collections.frequency(list, "e");
         int countW = Collections.frequency(list, "w");
 
-        return list.contains("e") && countE == countW &&
+        return list.contains("e") && countE == countW ||
                 list.contains("n") && countN == countS &&
                 list.size() == 10;
 

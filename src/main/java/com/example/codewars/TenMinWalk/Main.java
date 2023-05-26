@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-char[] walk = {'w'};
+char[] walk = {'e','e','e','e','e','w','w','w','w','w'};
 
 boolean isValid = isValid(walk);
         System.out.println(isValid);
