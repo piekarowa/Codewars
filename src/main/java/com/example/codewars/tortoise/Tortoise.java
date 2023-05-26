@@ -9,10 +9,12 @@ public class Tortoise {
         }
 
         int speedDifference = v2 - v1;
-        int hour = g / speedDifference;
 
-        int minute = hour * 3600 / 60;
-        int second = hour * 3600 % 60;
+        int totalSeconds = g * 3600 / speedDifference;
+        int hour = totalSeconds / 3600;
+
+        int minute = (totalSeconds % 3600) / 60;
+        int second = totalSeconds % 60;
 
         return new int[]{hour, minute, second};
 
