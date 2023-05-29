@@ -7,3 +7,6 @@ public class SortTheOdd {
     }
 
 }
+
+//sort array of numbers
+//sort only odd numbers in ascending order leaving even numbers at their original places
